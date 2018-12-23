@@ -39,3 +39,7 @@ function checkbads() {
     cat messagebox | sed 's/.\{8\}/&\n/g'
     # SEH JMP = shift+f9 
     
+    
+ ### Useful scripts  
+ ./gen_xor.sh   : Generate the xor encoding code (start address, end address and xor address) 
+    
