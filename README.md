@@ -41,5 +41,7 @@ function checkbads() {
     
     
  ### Useful scripts  
- ./gen_xor.sh   : Generate the xor encoding code (start address, end address and xor address) 
+ ./gen_xor.sh   : Generate the xor encoding code (start address, end address and xor address)  
+ ### Check info binary 
+ https://github.com/iaraoz/binsecurity
     
