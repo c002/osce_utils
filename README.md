@@ -38,7 +38,9 @@ function checkbads() {
     # Separate each 4 bytes
     cat messagebox | sed 's/.\{8\}/&\n/g'
     # SEH JMP = shift+f9 
-    
+ 
+   # assembly conversion  
+   shellnoob --intel -i --to-opcode
     
  ### Useful scripts  
  ./gen_xor.sh   : Generate the xor encoding code (start address, end address and xor address)  
