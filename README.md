@@ -41,7 +41,9 @@ function checkbads() {
  
 ### assembly conversion  
    shellnoob --intel -i --to-opcode
-    
+### Encode a payload  
+msfvenom  -p generic/custom PAYLOADFILE=egghunter -a x86 --platform windows -e x86/alpha_mixed bufferregister=eax -b "\x00\x0d\x0a" -f perl  
+
  ### Useful scripts  
  ./gen_xor.sh   : Generate the xor encoding code (start address, end address and xor address)  
  ### Check info binary 
