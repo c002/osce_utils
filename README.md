@@ -39,7 +39,7 @@ function checkbads() {
     cat messagebox | sed 's/.\{8\}/&\n/g'
     # SEH JMP = shift+f9 
  
-   # assembly conversion  
+### assembly conversion  
    shellnoob --intel -i --to-opcode
     
  ### Useful scripts  
